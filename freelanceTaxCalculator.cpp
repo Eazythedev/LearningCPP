@@ -4,7 +4,10 @@ using namespace std;
 
 
 int main() {
-    int revenueTotal = 1000;
+    int revenueTotal;
+    cout << "Enter total revenue: ";
+    cin >> revenueTotal;
+    
     double freelanceTax = 0.153;
     int profit;
     int taxTotal;
