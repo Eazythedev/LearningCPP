@@ -2,7 +2,7 @@
 //  main.cpp
 //  LearningC++
 //
-//  Created by Ezaiah Akyeem/Erujine/Eazythedev on 11/1/23. (This code was written in this project file on March 22, 2025 (3/22/25))
+//  Created by Ezaiah Akyeem/Erujine/Eazythedev on March 22, 2025 (3/22/25).
 //
 // The Player Level Text Display
 
