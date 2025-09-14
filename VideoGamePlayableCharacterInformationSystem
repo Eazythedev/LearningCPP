@@ -1,0 +1,57 @@
+//
+// main.cpp
+// LearningC++
+//
+// Created by Ezaiah Akyeem/Eazythedev
+// September 13, 2025
+// Video Game Playable Character Information System
+ 
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+    struct playableCharacter {
+        string pChName;
+        string pChOrigin;
+        float pChStat1;
+        float pChStat2;
+        float pChStat3;
+    };
+
+int main() {
+    // Using structures with names, 'pCh1' in this case, meaning 'playableCharacter1'
+    playableCharacter pCh1;
+    pCh1.pChName = "Tommio";
+    pCh1.pChOrigin = "Zathos";
+    pCh1.pChStat1 = 7.3;
+    pCh1.pChStat2 = 4.5;
+    pCh1.pChStat3 = 8.1;
+    
+    playableCharacter pCh2;
+    pCh2.pChName = "Reath";
+    pCh2.pChOrigin = "Corendon";
+    pCh2.pChStat1 = 2;
+    pCh2.pChStat2 = 10;
+    pCh2.pChStat3 = 4.4;
+    
+    playableCharacter pCh3;
+    pCh3.pChName = "Kado";
+    pCh3.pChOrigin = "Lioth";
+    pCh3.pChStat1 = 4.7;
+    pCh3.pChStat2 = 8.2;
+    pCh3.pChStat3 = 9.5;
+    
+    cout << "Character 1 Information: " << "\n\n";
+    
+    cout << "Character Name: " << pCh1.pChName << "\n" << "Character Place of Origin: " << pCh1.pChOrigin << "\n" << "Character Stat 1: " << pCh1.pChStat1 << "\n" << "Character Stat 2: " << pCh1.pChStat2 << "\n" << "Character Stat 3: " << pCh1.pChStat3 << "\n\n";
+    
+    cout << "Character 2 Information: " << "\n\n";
+    
+    cout << "Character Name: " << pCh2.pChName << "\n" << "Character Place of Origin: " << pCh2.pChOrigin << "\n" << "Character Stat 1: " << pCh2.pChStat1 << "\n" << "Character Stat 2: " << pCh2.pChStat2 << "\n" << "Character Stat 3: " << pCh2.pChStat3 << "\n\n";
+    
+    cout << "Character 3 Information: " << "\n\n";
+    
+    cout << "Character Name: " << pCh3.pChName << "\n" << "Character Place of Origin: " << pCh3.pChOrigin << "\n" << "Character Stat 1: " << pCh3.pChStat1 << "\n" << "Character Stat 2: " << pCh3.pChStat2 << "\n" << "Character Stat 3: " << pCh3.pChStat3 << "\n\n";
+    
+    return 0;
+}
