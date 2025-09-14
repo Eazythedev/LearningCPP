@@ -1,0 +1,65 @@
+//
+  // main.cpp
+  // LearningC++
+  //
+  // Created by Ezaiah Akyeem/Eazythedev
+  // September 13, 2025
+  // Vehicle Organization System V2
+  
+  #include <iostream>
+  #include <string>
+  #include <cmath>
+  using namespace std;
+  
+  int main() {
+    struct {
+        string vehicleMake;
+        string vehicleModel;
+        int vehicleModelYear;
+        double vehicleDisplacement;
+        int vehicleTransmissionGears;
+    } vehicle1, vehicle2, vehicle3, vehicle4;
+    
+    vehicle1.vehicleMake = "Chevrolet";
+    vehicle1.vehicleModel = "Caprice";
+    vehicle1.vehicleModelYear = 1972;
+    vehicle1.vehicleDisplacement = 6.6; // Original guess 6.7
+    vehicle1.vehicleTransmissionGears = 4;
+    
+    vehicle2.vehicleMake = "Honda";
+    vehicle2.vehicleModel = "Civic";
+    vehicle2.vehicleModelYear = 1998;
+    vehicle2.vehicleDisplacement = 1.8;
+    vehicle2.vehicleTransmissionGears = 5;
+    
+    vehicle3.vehicleMake = "Acura";
+    vehicle3.vehicleModel = "NSX";
+    vehicle3.vehicleModelYear = 2000;
+    vehicle3.vehicleDisplacement = 3.2;
+    vehicle3.vehicleTransmissionGears = 5;
+    
+    vehicle4.vehicleMake = "Bently";
+    vehicle4.vehicleModel = "Continental Flying Spur"; // Original guess "Flying Spur
+    vehicle4.vehicleModelYear = 2010;
+    vehicle4.vehicleDisplacement = 6.0; // Original guess 4.0L
+    vehicle4.vehicleTransmissionGears = 6;
+    
+    cout << "Vehicle 1 Information: " << "\n\n";
+    
+    cout << "Vehicle Make: " << vehicle1.vehicleMake << "\n" << "Vehicle Model: " << vehicle1.vehicleModel << "\n" << "Vehicle Model Year: " << vehicle1.vehicleModelYear << "\n" << "Vehicle Displacement: " << vehicle1.vehicleDisplacement << "L" << "\n" << "Vehicle Transmission Gear Number: " << vehicle1.vehicleTransmissionGears << "\n\n";
+    
+    cout << "Vehicle 2 Information: " << "\n\n";
+    
+    cout << "Vehicle Make: " << vehicle2.vehicleMake << "\n" << "Vehicle Model: " << vehicle2.vehicleModel << "\n" << "Vehicle Model Year: " << vehicle2.vehicleModelYear << "\n" << "Vehicle Displacement: " << vehicle2.vehicleDisplacement << "L" << "\n" << "Vehicle Transmission Gear Number: " << vehicle2.vehicleTransmissionGears << "\n\n";
+    
+    cout << "Vehicle 3 Information: " << "\n\n";
+    
+    cout << "Vehicle Make: " << vehicle3.vehicleMake << "\n" << "Vehicle Model: " << vehicle3.vehicleModel << "\n" << "Vehicle Model Year: " << vehicle3.vehicleModelYear << "\n" << "Vehicle Displacement: " << vehicle3.vehicleDisplacement << "L" << "\n" << "Vehicle Transmission Gear Number: " << vehicle3.vehicleTransmissionGears << "\n\n";
+    
+    cout << "Vehicle 4 Information: " << "\n\n";
+    
+    cout << "Vehicle Make: " << vehicle4.vehicleMake << "\n" << "Vehicle Model: " << vehicle4.vehicleModel << "\n" << "Vehicle Model Year: " << vehicle4.vehicleModelYear << "\n" << "Vehicle Displacement: " << vehicle4.vehicleDisplacement << ".0" << "L" << "\n" << "Vehicle Transmission Gear Number: " << vehicle4.vehicleTransmissionGears << "\n\n";
+    
+    
+    return 0;
+}
