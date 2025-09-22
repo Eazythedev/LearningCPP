@@ -16,11 +16,11 @@ int taxCalculator(double tc) {
 int main() {
     int c;
 
-    cout << "Enter the cost: ";
+    cout << "Enter the cost: $ ";
 
     cin >> c;
 
-    cout << "The cost with tax included: " << taxCalculator(c);
+    cout << "The cost with tax included: $" << taxCalculator(c);
 
     return 0;
 }
