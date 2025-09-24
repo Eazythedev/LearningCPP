@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-    
+   
     auto correct = []() {
         cout << "Correct!" << "\n";
     };
@@ -24,9 +24,13 @@ int main() {
 
     if (guess == num) {
         correct();
-    }
-    else {
+    } else {
         cout << "Incorrect." << "\n";
     }
+
+    if (guess < 1 || guess > 10) {
+        cout << "Invalid: Number must be between 1 and 10" << "\n";
+    }
+
     return 0;
 }
