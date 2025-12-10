@@ -14,20 +14,32 @@ using namespace std;
 int main()
 {
     cout << "Task Manager\n";
+    /*
     cout << "Select an option by pressing a number key: " << "\n";
     cout << "1. Add a task" << "\n" <<  "2. Remove a task" << "\n" << "3. View tasks" << "\n" << "0. Close Program " << "\n\n";
+    */
 
     int userInput;
     // string aTask;
 
 
-        cin >> userInput;
+        //cin >> userInput;
 
 
 
         vector<string> tasks = { "Wash car", "Do laundry" };
         string inputTask;
 
+        cout << "\n" << "Current tasks:" << "\n\n";
+        for (int t = 0; t < tasks.size(); t++) {
+            cout << "- " << tasks[t] << "\n";
+        }
+
+        cout << "Select an option by pressing a number key: " << "\n";
+        cout << "1. Add a task" << "\n" <<  "2. Remove a task" << "\n" << "3. View tasks" << "\n" << "0. Close Program " << "\n\n";
+
+        cin >> userInput;
+        
         if (userInput == 1) {
             // Add a task
             cout << "\n" << "Enter name of task: ";
@@ -48,7 +60,7 @@ int main()
 
         if (userInput == 3) {
             // View tasks
-            cout << "Current tasks: " << "\n";
+            cout << "\n" << "Current tasks: " << "\n";
         }
         // Range-based for loop
         /*
