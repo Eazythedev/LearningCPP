@@ -22,10 +22,7 @@ int main()
     int userInput;
     // string aTask;
 
-
         //cin >> userInput;
-
-
 
         vector<string> tasks = { "Wash car", "Do laundry" };
         string inputTask;
