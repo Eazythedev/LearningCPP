@@ -35,4 +35,8 @@ int main() {
     for (const string& car2 : cars2) {
         cout << car2 << "\n";
     }
+    // Reverse order
+    for (auto it = cars.rbegin(); it != cars.rend(); ++it) {
+        cout << *it << "\n";
+    }
 }
