@@ -43,5 +43,5 @@ int main() {
         cout << "This is a compact car.";
     } 
     else {
-        cout << "This is a full-size vehice";
+        cout << "This is a full-size vehicle.";
     }
