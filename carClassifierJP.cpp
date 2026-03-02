@@ -45,6 +45,10 @@ int main() {
     }
     else if (carObj1.modelYear > 2006 & carObj1.modelYear < 2020) {
         cout << "This is a modern car." << "\n";
+    }
+    else {
+        cout << "This is a later model modern car.";
+    }
 
     if (carObj1.engineSize <= 660) {
         cout << "This is a kei-car.";
@@ -55,3 +59,7 @@ int main() {
     else {
         cout << "This is a full-size vehicle.";
     }
+
+    return 0;
+        
+}
